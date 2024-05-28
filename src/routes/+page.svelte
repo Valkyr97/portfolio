@@ -21,8 +21,9 @@
 					Hi, I'm <b>Janyel</b>
 				</p>
 				<p class="text-xl mt-4">
-					a <b>full-stack web developer</b> with a passion for building solutions. I also dabble in Android
-					development and data analysis
+					a <b>full-stack web developer</b> with a passion for building solutions. I also dabble in
+					<b>Android</b>
+					development and <b>data analysis</b>
 				</p>
 				<p class="text-5xl mt-1">
 					I can assist in building robust web, mobile and desktop applications
@@ -35,7 +36,7 @@
 		<div class="col-start-6 flex w-full place-content-center">
 			<h1 class="text-5xl font-semibold text-center py-12">About</h1>
 		</div>
-		<div class="col-start-3 col-span-7 flex gap-x-12">
+		<div class="col-start-4 col-span-6 flex gap-x-12">
 			<div class="flex flex-1">
 				<img src={personalPlaceholder} alt="This is me" />
 			</div>
@@ -47,6 +48,7 @@
 					quaerat nostrum fuga ipsam praesentium quam ex eum. Dolor quisquam ut provident expedita
 					deleniti?
 				</p>
+				<a class="text-emerald-600 font-semibold" href="/about">Checkout my resume</a>
 				<div class="flex flex-col w-full">
 					<h3 class="w-full text-center text-lg uppercase font-semibold">Skills</h3>
 					{#each data.skills as skill}
@@ -56,6 +58,22 @@
 						</div>
 					{/each}
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="h-80" />
+
+	<div class="w-full grid grid-cols-12">
+		<div class="col-start-6 flex w-full place-content-center">
+			<h1 class="text-5xl font-semibold text-center py-12">Projects</h1>
+		</div>
+		<div class="col-start-2 col-span-10">
+			<div class="flex flex-grow w-full place-content-between">
+				<div class="flex-1">Project 1</div>
+				<div class="flex-1">Project 2</div>
+				<div class="flex-1">Project 3</div>
+				<div class="flex-1">Project 4</div>
 			</div>
 		</div>
 	</div>
