@@ -41,18 +41,15 @@
 				<img src={personalPlaceholder} alt="This is me" />
 			</div>
 			<div class="flex flex-1 flex-col gap-y-6">
-				<p class="px-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam sed quas, ducimus autem
-					necessitatibus mollitia recusandae error sapiente ipsam quisquam aliquam iste facilis ea
-					aspernatur cupiditate harum ipsum, maiores est laudantium. Facere laudantium enim maiores
-					quaerat nostrum fuga ipsam praesentium quam ex eum. Dolor quisquam ut provident expedita
-					deleniti?
+				<p class="px-4 whitespace-pre-line">
+					Hola soy ingeniero informático graduado y desarrollador web con 4 años de experiencia.
+					Comencé a trabajar en el año xxxx como desarrollador full-stack para la empresa NTSprint y desde el año xxxx trabajo como desarrollador y project manager freelancer en un pequeño equipo de desarrollo.
 				</p>
 				<a class="text-emerald-600 font-semibold" href="/about">Checkout my resume</a>
-				<div class="flex flex-col w-full">
+				<div class="flex flex-col md:flex-row md:flex-wrap gap-x-4 w-full">
 					<h3 class="w-full text-center text-lg uppercase font-semibold">Skills</h3>
 					{#each data.skills as skill}
-						<div class="flex gap-x-2">
+						<div class="flex gap-x-1">
 							<img class="h-6 w-6" src={skill.icon} alt={skill.name} />
 							<span class="uppercase">{skill.name}</span>
 						</div>
